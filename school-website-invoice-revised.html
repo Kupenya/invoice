@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Invoice - School Website Development</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      .header {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+      .invoice-title {
+        font-size: 28px;
+        font-weight: bold;
+        color: #2c3e50;
+        margin-bottom: 5px;
+      }
+      .invoice-number {
+        font-size: 16px;
+        color: #7f8c8d;
+      }
+      .section {
+        margin-bottom: 25px;
+      }
+      .section-title {
+        font-size: 18px;
+        font-weight: bold;
+        color: #2c3e50;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+      }
+      .from-details {
+        margin-bottom: 20px;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+      }
+      th,
+      td {
+        padding: 12px 15px;
+        border-bottom: 1px solid #ddd;
+      }
+      th {
+        background-color: #f2f2f2;
+        text-align: left;
+      }
+      .amount {
+        text-align: right;
+      }
+      .total-row {
+        font-weight: bold;
+        background-color: #f9f9f9;
+      }
+      .terms {
+        font-size: 14px;
+      }
+      .terms li {
+        margin-bottom: 8px;
+      }
+      .footer {
+        text-align: center;
+        margin-top: 40px;
+        font-style: italic;
+        color: #7f8c8d;
+      }
+      ul.project-features {
+        padding-left: 20px;
+      }
+      ul.project-features li {
+        margin-bottom: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="invoice-title">INVOICE</div>
+      <div class="invoice-number">Invoice #: WD-2025-0014</div>
+      <div>Date: April 14, 2025</div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">From</div>
+      <div class="from-details">Glory Alphonsus<br /></div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">
+        Project Details: School Website Development
+      </div>
+      <p><strong>Project Summary</strong></p>
+      <p>
+        Development of a comprehensive static website for a school that will
+        include:
+      </p>
+      <ul class="project-features">
+        <li>School admission information and procedures</li>
+        <li>Admin and staff profiles</li>
+        <li>Student information and achievements</li>
+        <li>Academic programs and curriculum</li>
+        <li>School events and news</li>
+        <li>Contact information and location details</li>
+        <li>And every other detail</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Services & Fees</div>
+      <table>
+        <thead>
+          <tr>
+            <th>Description</th>
+            <th class="amount">Amount (₦)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Custom Website Architecture & Implementation</td>
+            <td class="amount">300,000</td>
+          </tr>
+          <tr>
+            <td>Domain Registration and Hosting (1 year)</td>
+            <td class="amount">100,000</td>
+          </tr>
+          <tr class="total-row">
+            <td><strong>TOTAL</strong></td>
+            <td class="amount"><strong>400,000</strong></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Terms and Conditions</div>
+      <ol class="terms">
+        <li>
+          <strong>Project Timeline:</strong> 1 month from date of payment
+          confirmation
+        </li>
+        <li>
+          <strong>Payment Terms:</strong> 70% upfront (₦280,000), 30% upon
+          completion (₦120,000)
+        </li>
+        <li>
+          <strong>Content Provision:</strong> Client will provide all necessary
+          content including text, images, logos, and other materials required
+          for website development
+        </li>
+        <li>
+          <strong>Domain and Hosting:</strong> A fixed fee of ₦100,000 covers
+          domain registration and hosting for one year. Any difference between
+          actual costs and this amount will be refunded to the client
+        </li>
+        <li>
+          <strong>Project Commencement:</strong> The one-month development
+          period begins after receipt of initial payment
+        </li>
+      </ol>
+    </div>
+
+    <div class="footer">Thank you for your business!</div>
+  </body>
+</html>
